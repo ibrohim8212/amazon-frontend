@@ -235,3 +235,30 @@ form {
   letter-spacing: -0.5px;
   font-weight: 300;
 }
+
+@media only screen and (max-width:705px) {
+  .language {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .order {
+    display: none;
+  }
+
+  .card {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:640px) {
+.location {
+  display: none;
+}
+.navbar-nav-link{
+  display: none;
+}
+}

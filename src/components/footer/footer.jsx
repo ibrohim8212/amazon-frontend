@@ -8,14 +8,14 @@ return (
   <footer>
 <div class="middle">
       <div class="center">
-        <ul>
+        <ul className="footer-ul">
           <li><h3>Get to Know Us</h3></li>
           <li><Link to="/">Careers</Link></li>
           <li><Link to="/">About Amazon</Link></li>
           <li><Link to="/">Investor Relations</Link></li>
           <li><Link to="/">Amazon Devices</Link></li>
         </ul>
-        <ul>
+        <ul className="footer-ul">
           <li><h3>Make Money with Us</h3></li>
           <li><Link to="/">Sell on Amazon</Link></li>
           <li><Link to="/">Sell Your Services on Amazon</Link></li>
@@ -28,7 +28,7 @@ return (
           <li><Link to="/">Sell Your Subscription on Amazon</Link></li>
           <li><Link to="/">› See all</Link></li>
         </ul>
-        <ul>
+        <ul className="footer-ul">
           <li><h3>Amazon Payment Products</h3></li>
           <li><Link to="/">Amazon Rewards Visa Signature Cards</Link></li>
           <li><Link to="/">Amazon.com Store Card</Link></li>
@@ -38,7 +38,7 @@ return (
           <li><Link to="/">Reload Your Balance</Link></li>
           <li><Link to="/">Amazon Currency Converter</Link></li>
         </ul>
-        <ul>
+        <ul className="footer-ul">
           <li><h3>Let Us Help You</h3></li>
           <li><Link to="/">Your Account</Link></li>
           <li><Link to="/">Your Orders</Link></li>

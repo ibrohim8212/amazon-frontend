@@ -1,5 +1,5 @@
 .container{
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   overflow: hidden;
   padding: 20px 5px 20px 5px;
@@ -32,4 +32,16 @@
   color: #011;
   font-size: 14px;
   text-align: center;
+}
+
+@media screen and (max-width: 1245px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+  .essentialsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }

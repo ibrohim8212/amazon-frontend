@@ -142,7 +142,7 @@ function Header({setIsSidebarOpen}) {
             <Link to="/">12 Days of Deals</Link>
           </div>
           <div className="navbar-nav-link">
-            <Link to="/">Customer Service</Link>
+            <Link to="/customer-service">Customer Service</Link>
           </div>
           <div className="navbar-nav-link">
             <Link to="/">Registry</Link>

@@ -32,3 +32,15 @@
   left: 0;
   z-index: 3;
 }
+
+@media screen and (max-width: 1001px) {
+  .back-to-top {
+    margin-top: 290px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .back-to-top {
+    margin-top: 320px;
+  }
+}
